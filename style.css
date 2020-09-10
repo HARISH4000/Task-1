@@ -1,0 +1,61 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size:16px;
+    color:white;
+  }
+  .btn{
+    background-color:hsl(154, 59%, 51%);
+    box-shadow: 10px 10px solid black;
+  }
+  .btn:hover{
+    background-color:hsl(154, 69%, 60%);
+  }
+  @media (max-width: 1440px) and (min-width:500px) {
+   body {
+    background-color: hsl(0, 100%, 74%) ;
+    background-image: url("/images/bg-intro-desktop.png"); 
+    background-attachment: fixed;
+    }
+    .tp{
+    padding-top:125px;
+    }
+    .size{
+     height:50px;
+     width:400px;
+   }
+   .ab{
+    width:450px;
+   }
+   .wi{
+     height:50px;
+   }
+  }
+  @media (max-width: 375px) {
+  body {
+    background-color: hsl(0, 100%, 74%) ;
+    background-image: url("/images/bg-intro-mobile.png"); 
+    background-attachment: fixed;
+    text-align:center;
+   }
+   
+   .size{
+     height:40px;
+     width:280px;
+   }
+   .wi{
+     height:80px;
+   }
+  }
+  header.site-header{
+
+  height:3px;
+
+  }
+  .brad{
+    border-radius: 8px;
+  }
+  .shad{
+   -webkit-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.541);
+     -moz-box-shadow: 0 12px 6px -6px rgba(0, 0, 0, 0.541);
+          box-shadow: 0 12px 6px -6px rgba(0, 0, 0, 0.541);
+  }
